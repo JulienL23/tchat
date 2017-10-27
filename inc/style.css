@@ -1,0 +1,14 @@
+label{
+    float: left;
+    width: 100px;
+}
+
+fieldset{
+    width: 15%;
+    margin: 50px auto;
+}
+
+.erreur{
+    background: red;
+    padding: 5px;
+}
