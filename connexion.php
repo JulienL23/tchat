@@ -22,7 +22,7 @@ if (isset($_POST['connexion'])) { // si on click sur connexion
         $_SESSION['id_membre'] = $id_membre;
         $_SESSION['civilite'] = $_POST['civilite'];
         $_SESSION['pseudo'] = $_POST['pseudo'];
-        header('location.index.php');
+        header('location:index.php');
     }
 }
  ?>
